@@ -1,0 +1,154 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "_id": "1",
+      "firstname": "Bob",
+      "lastname": "Towson",
+      "patronymic": "Sam",
+      "email": "asd@sdf.fd",
+      "gender": "Мужчина",
+      "postId": "1",
+      "postTypeId": "2",
+      "birthday": "2022-06-09T09:09:23.000Z"
+    },
+    {
+      "id": 2,
+      "_id": "2",
+      "firstname": "Sam",
+      "lastname": "Smiths",
+      "patronymic": "Sam",
+      "email": "a346d@sdf.fd",
+      "gender": "Женщина",
+      "postId": "2",
+      "postTypeId": "2",
+      "birthday": "2022-06-23T09:09:34.000Z"
+    },
+    {
+      "id": 3,
+      "_id": "3",
+      "firstname": "Kevin",
+      "lastname": "Kelly",
+      "patronymic": "Alekseevich",
+      "email": "asd90@sdf.fd",
+      "gender": "Мужчина",
+      "postId": "1",
+      "postTypeId": "1",
+      "birthday": "2022-06-02T09:09:41.000Z"
+    },
+    {
+      "id": "1b9090c7-31b2-480a-8b2c-81225c96955b",
+      "firstname": "Romashin",
+      "lastname": "Peter",
+      "patronymic": "Antonovich",
+      "email": "sf@fgf.cd",
+      "birthday": "2022-06-28T17:00:00.000Z",
+      "gender": "Мужчина",
+      "postId": "4",
+      "postTypeId": "2"
+    },
+    {
+      "id": "5360f63f-0b73-465e-9b4e-e6d0c3f9eb51",
+      "firstname": "Smolyakov",
+      "lastname": "Fedor",
+      "patronymic": "Sergeevich",
+      "email": "erga@ya.ru",
+      "birthday": "2022-06-07T17:00:00.000Z",
+      "gender": "Мужчина",
+      "postId": "4",
+      "postTypeId": "1"
+    },
+    {
+      "id": "f359853a-59e2-451a-811c-8c71f454eeb2",
+      "firstname": "Tihonov",
+      "lastname": "Egov",
+      "patronymic": "Pavlovich",
+      "email": "dqs@sdf.cg",
+      "birthday": "2022-09-13T17:00:00.000Z",
+      "gender": "Мужчина",
+      "postId": "3",
+      "postTypeId": "3"
+    },
+    {
+      "id": "5133fbf0-57ce-4db1-ae4b-36db44056ee5",
+      "firstname": "Fedor",
+      "lastname": "Smolyakov",
+      "patronymic": "Anatolevich",
+      "email": "tya@ya.ru",
+      "birthday": "2022-06-07T17:00:00.000Z",
+      "gender": "Мужчина",
+      "postId": "4",
+      "postTypeId": "2"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Директор",
+      "types": [
+        {
+          "id": "1",
+          "title": "PR"
+        },
+        {
+          "id": "2",
+          "title": "Маркетинг"
+        },
+        {
+          "id": "3",
+          "title": "IT"
+        },
+        {
+          "id": "4",
+          "title": "HR"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Руководитель отделения",
+      "types": [
+        {
+          "id": "1",
+          "title": "PR"
+        },
+        {
+          "id": "2",
+          "title": "IT"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Контролер",
+      "types": [
+        {
+          "id": "1",
+          "title": "PR"
+        },
+        {
+          "id": "2",
+          "title": "Маркетинг"
+        },
+        {
+          "id": "3",
+          "title": "IT"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Рабочий",
+      "types": [
+        {
+          "id": "1",
+          "title": "Jack Fisher"
+        },
+        {
+          "id": "2",
+          "title": "Michel Daw"
+        }
+      ]
+    }
+  ]
+}
